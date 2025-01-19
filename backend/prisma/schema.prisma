@@ -11,11 +11,6 @@ model User {
   id        Int      @id @default(autoincrement())
   email     String   @unique
   password  String
-  role      Role     @default(USER)
+  role      Role
   createdAt DateTime @default(now())
-}
-
-enum Role {
-  ADMIN
-  USER
 }
