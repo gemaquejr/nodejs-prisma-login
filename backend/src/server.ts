@@ -1,9 +1,9 @@
 import express, { Application } from 'express';
 import bodyParser from 'body-parser';
-import prisma from './config/db.js';
+import prisma from './config/db';
 
 const app: Application = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 
 app.use(bodyParser.json());
 
