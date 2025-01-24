@@ -1,7 +1,7 @@
 import express, { Application } from 'express';
 import bodyParser from 'body-parser';
 import prisma from './config/db';
-import router from './modules/auth/auth.routes';
+import router from './app';
 
 const app: Application = express();
 const PORT = process.env.PORT || 3001;
