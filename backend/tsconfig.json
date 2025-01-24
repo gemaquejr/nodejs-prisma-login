@@ -19,6 +19,7 @@
     "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "node",
+    "esModuleInterop": true,
     "noFallthroughCasesInSwitch": true
   },
   "include": ["src/**/*.ts"],
